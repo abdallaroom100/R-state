@@ -126,7 +126,7 @@ const Header = () => {
 
       {/* قائمة الهواتف تظهر في الشاشات الصغيرة */}
       {isMenuOpen && (
-        <div className="md:hidden bg-[url('/cover.jpg')] bg-cover bg-center p-4">
+        <div className="md:hidden  p-4">
           <nav aria-label="Global">
             <ul className="flex flex-col text-base items-end font-bold gap-4">
               <li>
